@@ -1,6 +1,6 @@
 ## Resultado esperado: 
 
-''
+``
 Valor de A:400
 400
 Valor de B:100
@@ -22,4 +22,4 @@ Divisão: 300\150
 Quociente da divisão: 2
 Resto da divisão: 0
 -- program is finished running --
-''
+``
