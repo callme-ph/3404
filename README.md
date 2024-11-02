@@ -1,4 +1,4 @@
-# Repositório referente as atividades realizadas na matéria de Arquitetura de Computadores - DCA3404
+#### Repositório referente as atividades realizadas na matéria de Arquitetura de Computadores - DCA3404
 
 Baixar o Mars4_5.jar e executar pra usar o código.
 
