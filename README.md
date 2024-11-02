@@ -4,4 +4,4 @@
 
 Para abrir os códigos baixar o Mars4_5.jar, executar para abrir a IDE e abrir os códigos.
 
-Se não for direto, abrir o cmd na pasta do arquivo e usar o comando: java -jar Mars4_5.jar
+Caso o arquivo jar não executar direto, abrir o cmd na pasta do arquivo e usar o comando: java -jar Mars4_5.jar
