@@ -57,7 +57,7 @@ la $s0, vetor # $0 irá receber o endereço de memoria associado a vetor. Este end
 	# s1 = endereço usado para referenciar a s0 de 4 em 4 bytes
 	# inicialmente $s1 = $s0, depois $s1 = $0 + 4 - 4($s0)	
 	
-	# Salva no endereço inicial de $s1 a palavra $a0
+	# Salva no endereço inicial de $s1 em $a0
 	sw $a0, 0($s1)
 	
 	la $s1, 4($s1)
