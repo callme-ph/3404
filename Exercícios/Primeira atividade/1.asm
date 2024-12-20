@@ -1,7 +1,6 @@
 ###########################################
 #                                         #
 #  Aluno: Pedro Henrique da Silva Santos  #
-#  MatrÌcula : 20210087424                #
 #                                         #
 ###########################################
 
@@ -27,7 +26,7 @@ addi $t1, $zero, 10
 ## Loop's index started in 0, saved to t2
 add $t2, $zero, $zero
 	
-# $s1 recebe o endereÁo inicial de vetor que est· armazenado em $s0
+# $s1 recebe o endere√ßo inicial de vetor que est√° armazenado em $s0
 la $s1, ($s0)
 
 la $a0, generated_n
@@ -126,7 +125,7 @@ print_loop:
 
   addi $t2, $t2, 4                  #addr itr i += 4
   addi $t0, $t0, 1                  #i++
-  bne $t0, $s1, print_loop          #i != n -> verifica a condiÁ„o de parada do print
+  bne $t0, $s1, print_loop          #i != n -> verifica a condi√ß√£o de parada do print
 
 exit:
 
