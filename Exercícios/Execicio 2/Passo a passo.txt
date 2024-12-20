@@ -1,0 +1,21 @@
+Primeiro passo: Condicional nib_eq_0 ou nib_eq_1
+Fazer com que um registrador tenha um formato em que seja possível fazer o AND entre um outro registrador e assim, somente os nibbles correspondentes estejam no registrador final
+
+Ex: nib_eq_0 -> 0x000F0F0F
+
+Dentro dessas condicionais deve ser verificado os três casos
+
+Segundo passo: Condicional dos casos para saber quais bytes devem ser lidos
+
+caso_0: ler byte 2 e 1 -> 0x00FFFF00
+fazer o AND entre o registrador do byte com o registrador da palavra ex: 0x00FFFF00 AND 0x00051010
+depois fazer o AND entre o resultado anterior e o registrador do nibble ex: 0x000F0F0F AND 0x00051000
+
+deslocar o resultado do registrador para que o nibble menos significativo fique no bit menos significativo
+deslocar o resultado do registrador para que o segundo nibble fique no segundo bit mais significativo
+
+caso_1: ler byte 2 e 0 -> 0x00FF00FF
+caso_2: ler byte 0 e 1 -> 0x0000FFFF
+
+
+
